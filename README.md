@@ -59,15 +59,15 @@ https://docs.docker.com/get-docker/
 
 ### Passos
 
-1) Build da imagem:
 ```bash
+# 1) Build da imagem
 docker build -t nginx-php-app .
 
-2) Executar o container:
+# 2) Executar o container
 docker run -p 8080:80 nginx-php-app
 
-3) Acesse no navegador:
-http://localhost:8080
+# 3) Acesse no navegador
+# http://localhost:8080
 
 ------------------------------------------------------------
 
